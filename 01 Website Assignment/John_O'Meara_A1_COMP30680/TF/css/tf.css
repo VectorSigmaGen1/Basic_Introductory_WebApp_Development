@@ -1,0 +1,148 @@
+a 
+{
+    text-decoration: none; 
+}
+body {
+  background-color: #d0d3d4;
+}
+h2 {
+    color:#a00af7;
+    font-size: 80px;
+}
+
+h3 {
+    color:#ed1509;
+    font-size: 80px;
+
+}
+#container
+{
+    width:1400px;
+    background-color:#000000;
+    text-align: center;
+    margin: auto;
+}
+
+#header
+{
+    padding-top:30px;
+    padding-bottom:10px;
+}
+
+#navigation
+{
+    display: inline-block;
+    margin-top:20px;
+}
+
+#navigation_bar
+{
+    list-style-type:none;
+    margin:auto;
+    padding:0;
+    overflow:hidden;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#navigation_bar a:link, #navigation_bar a:visited
+{
+    display: inline-block;
+    width:200px;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#a00af7;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+#navigation_bar a:hover,#navigation_bar a:active
+{
+    background-color:#ed1509;
+}
+#navigation_bar li
+{
+    display: inline-block;
+    position:relative;
+    float:none;
+
+}
+
+#heading
+{
+    text-align: center;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 200px;
+    color: #ffffff;
+}
+#subhead
+{
+    text-align: center;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+/* homepage image taken https://news.tfw2005.com/2017/05/18/3a-transformers-g1-optimus-prime-hand-photo-review-339152 - modified before use */
+
+#homepage
+{
+
+    align-content: center;
+    height: 700px;
+    background-image:url(../images/home_bg.jpg);
+    background-repeat:no-repeat;
+}
+#content
+{
+    margin: 120px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    align-content:center;
+
+}
+#table1
+{
+width: 100%;
+font-size: 60px;
+color: aliceblue;
+text-transform:uppercase;
+}
+
+#table1 a:link, #table a:visted
+{
+width: 100%;
+font-size: 80px;
+color:#FFFFFF;
+text-decoration:none;
+text-transform:uppercase;
+    
+}
+#footer
+{
+    text-align: center;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ffffff;    
+    
+}
+.gallery {
+  margin: 5px;
+  border: 1px solid #000000;
+  float: left;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #ffffff;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  padding: 15px;
+  text-align: center;
+}
